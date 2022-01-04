@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  height: 100vh;
+  background-color: black;
 }
 
 .App-logo {
@@ -7,9 +9,22 @@
   pointer-events: none;
 }
 
+#cat {
+  position: absolute;
+  cursor: none;
+}
+
+#mouse {
+  position: absolute;
+}
+
+.myheader {
+  color: white;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+    animation: App-logo-spin infinite 30s linear;
   }
 }
 
